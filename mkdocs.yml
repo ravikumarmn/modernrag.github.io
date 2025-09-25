@@ -1,0 +1,36 @@
+site_name: ModernRAG Documentation
+site_description: Documentation for the ModernRAG project
+site_author: ModernRAG Team
+
+theme:
+  name: material
+  palette:
+    primary: blue
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - content.code.annotate
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.critic
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - API Reference:
+      - Vector Store: vector_store.md
+      - Generation: generation.md
+      - Caching: caching.md
+
+repo_url: https://github.com/modernrag/modernrag.github.io
+edit_uri: edit/main/docs/

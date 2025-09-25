@@ -1,0 +1,31 @@
+# Core dependencies
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-openai==0.3.33
+langchain-pinecone==0.2.12
+langchain-text-splitters>=0.1.0
+
+# Vector database
+pinecone-client>=3.0.0
+
+# Document processing
+PyMuPDF==1.26.4
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+typing-extensions>=4.5.0
+
+# Async support
+asyncio>=3.4.3
+
+# Web dependencies
+fastapi>=0.110.0
+uvicorn>=0.27.0
+jinja2>=3.1.2
+python-multipart>=0.0.9
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
