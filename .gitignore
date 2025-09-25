@@ -40,6 +40,7 @@ venv.bak/
 
 # Cache
 __pycache__/
+cache/
 .pytest_cache/
 .benchmarks/
 
