@@ -39,7 +39,7 @@ jobs:
           echo "## Vector Store" > docs/vector_store.md
           python -c "import inspect; from modernrag.vector_store import * ; print(inspect.getsource(VectorStoreConfig))" >> docs/vector_store.md
           echo "## Generation" > docs/generation.md
-          python -c "import inspect; from modernrag.generation import * ; print(inspect.getsource(retrieve_augment_generate))" >> docs/generation.md
+          python -c "import inspect; from modernrag.generation import retrieve_augment_generate; print(inspect.getsource(retrieve_augment_generate))" >> docs/generation.md
           echo "## Caching" > docs/caching.md
           python -c "import inspect; from modernrag.caching import * ; print(inspect.getsource(CacheConfig))" >> docs/caching.md
           
